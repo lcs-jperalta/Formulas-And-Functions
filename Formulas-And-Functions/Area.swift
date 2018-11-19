@@ -21,7 +21,9 @@ import Foundation
  
  */
 func forSquareWith(sideLength s : Double) -> Double {
+// func  NAME      ARG LABEL   PARAMETER NAME : DATA TYPE
     let result = pow(s, 2.0)
+//               BASE   EXPONENT
     return result
 }
 
@@ -40,6 +42,20 @@ func forSquareWith(sideLength s : Double) -> Double {
  */
 func forRectangleWith(length l : Double, width w : Double) -> Double {
     
-    // Complete this function
-    return 0.0
+    let result = l * w
+    return result
+    }
+    
+func forParallelogramWith(base b : Double, height h : Double) -> Double {
+    let result = b * h
+    return result
+    }
+    
+func forTriangleWith(base b : Double, height h : Double) -> Double {
+    let result = b * h / 2
+    return result
+    }
+func forCircleWith(radius r : Double) -> Double {
+    let result = Double.pi * r * r
+    return result
 }
